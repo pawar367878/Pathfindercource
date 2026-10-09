@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <!-- Outer circular border -->
+  <circle cx="250" cy="250" r="236" fill="#FFFFFF" stroke="#0B2347" stroke-width="16" />
+  
+  <!-- Graduation Cap (Mortarboard) -->
+  <g id="mortarboard">
+    <!-- Cap Diamond Top -->
+    <polygon points="250,78 358,126 250,172 142,126" fill="#0B2347" />
+    
+    <!-- Cap Skull Skull/Band under diamond -->
+    <path d="M188,148 C188,148 214,168 250,168 C286,168 312,148 312,148 L312,176 C312,192 284,204 250,204 C216,204 188,192 188,176 Z" fill="#0B2347" />
+    
+    <!-- Cap button and tassel -->
+    <circle cx="250" cy="125" r="5" fill="#0B2347" />
+    <path d="M250,125 Q326,134 332,175" fill="none" stroke="#0B2347" stroke-width="4" stroke-linecap="round" />
+    <!-- Tassel Bell / Fringe -->
+    <path d="M332,175 L337,178 L341,200 L323,200 L327,178 Z" fill="#0B2347" />
+  </g>
+
+  <!-- Central 'P' and Book Emblem -->
+  <g id="emblem-p-and-book">
+    <!-- The Bold Letter P -->
+    <!-- Left vertical bar of P -->
+    <path d="M168,148 L202,148 L202,284 L168,284 Z" fill="#0B2347" />
+    
+    <!-- P upper loop -->
+    <path d="M198,148 L254,148 C286,148 308,166 308,198 C308,230 286,246 254,246 L198,246 Z M202,176 L202,218 L248,218 C266,218 276,210 276,197 C276,184 266,176 248,176 Z" fill="#0B2347" fill-rule="evenodd" />
+
+    <!-- Open Book at the bottom of P -->
+    <!-- Center spine drop / base curve -->
+    <!-- Left book pages (Navy) -->
+    <path d="M250,285 C222,274 182,272 152,276 L152,298 C186,294 224,296 250,307 Z" fill="#0B2347" />
+    <path d="M250,268 C224,258 190,256 160,260 L160,268 C188,264 224,266 250,277 Z" fill="#FFFFFF" />
+    <path d="M250,270 C226,260 196,258 168,262 L168,272 C196,268 226,270 250,280 Z" fill="#0B2347" />
+    <path d="M250,296 C226,285 194,284 168,288 L168,294 C196,290 226,292 250,302 Z" fill="#FFFFFF" />
+
+    <!-- Right book pages: Bright Vibrant Blue dynamic fluttering page -->
+    <path d="M250,282 C276,260 306,234 322,212 C320,236 302,266 276,285 Z" fill="#186FE3" />
+    <path d="M250,285 C278,272 316,270 342,274 L342,296 C314,292 278,294 250,307 Z" fill="#0B2347" />
+    <!-- Secondary flutter highlight -->
+    <path d="M260,282 C285,264 308,246 324,232 C318,252 296,274 270,286 Z" fill="#2E85F7" />
+  </g>
+
+  <!-- PATHFINDER Wordmark -->
+  <text x="250" y="362" text-anchor="middle" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="46" letter-spacing="3" fill="#0B2347">
+    PATHFINDER
+  </text>
+
+  <!-- Tagline: Learn • Build • Test • Deploy • Grow -->
+  <text x="250" y="394" text-anchor="middle" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16.5" letter-spacing="0.8" fill="#1C355E">
+    Learn  •  Build  •  Test  •  Deploy  •  Grow
+  </text>
+</svg>

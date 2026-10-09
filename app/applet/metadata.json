@@ -1,0 +1,6 @@
+{
+  "name": "Pathfinder Training Institute",
+  "description": "Professional IT training institute providing career-oriented practical courses in Full Stack Development, Manual Software Testing, and internship opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
